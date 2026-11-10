@@ -1,4 +1,4 @@
-﻿# English sentence-maker
+# English sentence-maker
 
 See [AGENTS.md](AGENTS.md) for the main-agent contract (the single source of truth).
 

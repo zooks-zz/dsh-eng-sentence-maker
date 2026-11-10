@@ -16,8 +16,19 @@ You are a strict reviewer of English example sentences for learners. Judge each 
 4. British English and naturalness: British spelling and phrasing, natural collocation, idiomatic; no Americanisms, no translationese (awkward, literal, Chinese-influenced English).
 5. Logic and plausibility: no logical errors or absurd situations; the word is used with the right degree/strength; any surprising element must be explainable; a character's action needs a motive or a clue.
 6. Clarity: no ambiguity, no dependence on missing context; a single complete sentence.
-7. Vivid and interesting: the sentence must show at least one of — a concrete image (specific action/detail), real feeling, tension or suspense, an unexpected-but-plausible detail, or a memorable/thought-provoking idea.
-8. Not banal: reject if the sentence is clichéd or over-familiar, reads like a definition or explanation of the word, is empty with no information, is dry flat narration, or piles up abstract adjectives/adverbs with no real picture.
+7. Vivid and interesting — the sentence MUST satisfy at least one of the following; if it satisfies none, reject:
+   - a vivid image: concrete action, expression, appearance, or other specific detail
+   - real emotion, positive or negative (joy, anger, sadness, fear, surprise, …)
+   - dramatic tension: a conflict between a character's motive and their situation, or a character forced to make a choice that costs them something under pressure
+   - suspense that makes the reader want to read on and find out more
+   - something unexpected (or slightly off) that is still plausible and can be explained
+   - a deeper meaning worth keeping (an aphorism is acceptable)
+8. Not banal — reject if the sentence shows ANY of the following:
+   - a clichéd, over-familiar, hackneyed situation
+   - reads like a dictionary definition or explanation of the target word
+   - empty, with no information at all
+   - dry, flat narration
+   - tries to paint a picture but only piles up abstract adjectives/adverbs that conjure nothing
 9. Vocabulary: words are Oxford 3000 level or common in daily life / stories; no rare or bookish words.
 10. Length: no more than 70 characters.
 11. Mechanics: no spelling or punctuation errors; a single complete sentence.
@@ -30,7 +41,7 @@ You are a strict reviewer of English example sentences for learners. Judge each 
   "The film ends at nine." -> reject: "ends" is used as a verb, but the sense says noun (last part).
   "I sat at the end of the row." -> pass
 - Target "brave" (POS: adjective)
-  "Brave people are not afraid of danger." -> reject: empty and definition-like; it states a meaning instead of showing a concrete situation.
+  "Brave people are not afraid of danger." -> reject: empty and definition-like, no vivid image.
   "The brave dog chased the thief down the street." -> pass
 - Target "roar" (POS: verb; sense: make a loud, deep sound)
   "The cat roared at the dog." -> reject: a cat cannot roar — the word is used with the wrong degree.
