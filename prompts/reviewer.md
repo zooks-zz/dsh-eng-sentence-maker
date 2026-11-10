@@ -45,6 +45,18 @@ You are a strict reviewer of English example sentences for learners. Judge each 
   "The brave dog chased the thief down the street." -> pass
 - Target "roar" (POS: verb; sense: make a loud, deep sound)
   "The cat roared at the dog." -> reject: a cat cannot roar — the word is used with the wrong degree.
+- Target "plenty" (POS: pron)
+  "We have plenty of time, so let's walk along the river instead." -> reject: the semantic connection between the front and back parts is relatively loose.
+- Target "plenty" (POS: pron)
+  "Plenty of rain fell last night, and the garden is smiling again." -> reject: childish like a children's picture book.
+- Target "land" (POS: verb)
+  "The butterfly landed on my hand and rested there for ages." -> reject: lacking sufficient clues and appearing strange.
+- Target "land" (POS: verb)
+  "Her paper plane landed neatly on the teacher's desk." -> reject: in this context, the combination of landed near is very strange, and the specific picture is not clearly explained.
+- Target "omit" (POS: verb)
+  "I omitted to lock the back door and found it swinging in the rain." -> reject: the target word appears slightly stiff in the context.
+- Target "omit" (POS: verb)
+  "He omitted the last step and the whole shelf came crashing down." -> reject: insufficient explanation of the situation and insufficient solid causal relationship.
 
 ## Output
 Return only one JSON object, no commentary or Markdown. One verdict per candidate sentence:

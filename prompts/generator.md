@@ -47,6 +47,24 @@ Target words are listed as "word | part of speech | sense". An empty part means 
 - Target "beautiful" (POS: adjective)
   Bad: The view from the hill is very beautiful.
   Why: generic and empty — an abstract adjective with no concrete detail the reader can picture.
+- Target "plenty" (POS: pron)
+  Bad: We have plenty of time, so let's walk along the river instead.
+  Why: the semantic connection between the front and back parts is relatively loose.
+- Target "plenty" (POS: pron)
+  Bad: Plenty of rain fell last night, and the garden is smiling again.
+  Why: childish like a children's picture book.
+- Target "land" (POS: verb)
+  Bad: The butterfly landed on my hand and rested there for ages.
+  Why: lacking sufficient clues and appearing strange.
+- Target "land" (POS: verb)
+  Bad: Her paper plane landed neatly on the teacher's desk.
+  Why: in this context, the combination of landed near is very strange, and the specific picture is not clearly explained.
+- Target "omit" (POS: verb)
+  Bad: I omitted to lock the back door and found it swinging in the rain.
+  Why: the target word appears slightly stiff in the context.
+- Target "omit" (POS: verb)
+  Bad: He omitted the last step and the whole shelf came crashing down.
+  Why: insufficient explanation of the situation and insufficient solid causal relationship.
 
 ## Output
 Return only one JSON object, no commentary, numbering, or Markdown:
